@@ -1,0 +1,108 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #f5efe7 !important;
+}
+h3 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+header {
+    background-color: #213555;
+    color: #f5efe7;
+    border: 1px black solid;
+    padding: 30px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+header a {
+    margin-right: 15px;
+    color: white;
+}
+header .menu {
+    align-content: center;
+}
+footer {
+    background: #213555;
+    color: #f5efe7;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+}
+.cta {
+    display: grid;
+    grid-template-areas:
+     "locat  usefullinks"
+    "services contactinfo";
+    grid-template-columns: 2fr 8fr;
+    gap: 15px;
+    column-gap: 91px;
+}
+.locat {
+    grid-area: locat;
+}
+.usefullinks{
+    grid-area:usefullinks;
+}
+.services{
+    grid-area:services;
+}
+.contactinfo{
+    grid-area:contactinfo;
+}
+.fa-brands {
+    margin: 15px 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: x-large;
+    text-align: center;
+    width: 45px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: white;
+    color: #213555;
+}
+.svg {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: large;
+    text-align: center;
+    width: 45px;
+    padding: 7px;
+    background-color: white;
+    color: #213555;
+}
+
+@media (max-width:500px) {
+    .info {
+        width: 100%;
+    }
+    .usefullinks,.services,.locat {
+        height: fit-content;
+    }
+    .cta {
+        display: grid;
+        grid-template-areas:
+         "locat  usefullinks"
+        "services contactinfo";
+        grid-template-columns: 2fr 8fr;
+        gap: 6px;
+        column-gap: 96px;
+    }
+}

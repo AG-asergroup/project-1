@@ -1,0 +1,100 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #213555;
+    color: #f5efe7;
+    border: 1px black solid;
+}
+
+header a {
+    margin-right: 15px;
+}
+main h1 {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+main * {
+    margin-bottom: 40px;
+}
+.content{
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+.first {
+    background-image: url(../media/logo\ white.bmp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-shadow: inset -1px -20px 20px 0px #5d5959;
+    width: 100%;
+    height: 400px;
+}
+.downloadbtn{
+    background-color: #009000;
+    color: white;
+    padding: 30px 50px;
+    margin-top: 140px;
+    text-transform: capitalize;
+    width: fit-content;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+    left: 37%;
+}
+footer {
+    background: #213555;
+    color: #f5efe7;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+footer * {
+    margin-bottom: 15px;
+}
+
+footer h2 {
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 25px;
+}
+footer .locatsocial {
+        width: 35%; 
+        display: flex;
+        flex-direction: column;
+}
+.social {
+    width: 90%;
+}
+.fa-brands {
+    margin: 15px 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: x-large;
+    text-align: center;
+    width: 45px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: white;
+    color: #213555;
+}
+@media (max-width:500px){
+    .downloadbtn {
+        left: 16%;
+    }
+}

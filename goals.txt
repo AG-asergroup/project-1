@@ -1,0 +1,9 @@
+
+									Goals' deadTime is 15 feb 25						
+									----------------------------
+
+	need to customize the js for the price (user can close it)
+	
+	finish the eamil sending
+
+	create something like samsung panles but for platforms 
